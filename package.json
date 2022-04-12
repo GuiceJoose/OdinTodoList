@@ -1,0 +1,26 @@
+{
+  "name": "odintodolist",
+  "version": "1.0.0",
+  "description": "To do list for The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiceJoose/OdinTodoList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuiceJoose/OdinTodoList/issues"
+  },
+  "homepage": "https://github.com/GuiceJoose/OdinTodoList#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

@@ -1,0 +1,38 @@
+* {margin: 0;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh;
+    background-color: blue;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .home {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionHeader {
+    background-color: aquamarine;
+    margin: 2vh 2vw;
+}
